@@ -10,7 +10,7 @@ PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
 
 LUCI_TITLE:=LuCI support for tailscale
-LUCI_DEPENDS:=+libustream-openssl +ca-bundle +kmod-tun
+LUCI_DEPENDS:=+tailscale
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
